@@ -1,0 +1,42 @@
+.body {
+    padding-top: 3.5rem;
+  }
+
+  /*navigation style*/
+.navbar-nav {
+  margin left: auto;
+  margin-right: 20 px;
+  display: block; 
+}
+
+  .navbar-brand {
+    margin-left: -40px;
+  }
+
+.collapse-navbar-collapse {
+   margin: right;
+}
+
+.btn-primary {
+  background-color: #7CA89F;
+  border-color: #7CA89F;
+}
+
+ /*jumbotron style*/
+
+ /*card style*/
+  .card-deck {
+    display: flex;
+  }
+
+  .card-img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  /*about me style*/
+
+
+  /*footer style*/
