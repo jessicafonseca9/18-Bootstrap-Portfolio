@@ -3,40 +3,92 @@
   }
 
   /*navigation style*/
+
+  .nav-link {
+    font-family: 'poppins', sans-serif;
+    font-weight: 'regular';
+    color: #2E344A !important;
+    font-size: 16px;
+  }
+
 .navbar-nav {
-  margin left: auto;
-  margin-right: 20 px;
-  display: block; 
+  margin-left: auto;
+  margin-right: 20px;
+  display: inline-flex; 
 }
 
   .navbar-brand {
-    margin-left: -40px;
+    margin-left: -60px;
   }
 
-.collapse-navbar-collapse {
-   margin: right;
-}
+  .mr-auto {
+    flex-grow: 0 !important;
+  }
+
+  .nav-item .nav-link:hover{
+    color:#D99748 !important;
+  }
+
 
 .btn-primary {
   background-color: #7CA89F;
   border-color: #7CA89F;
+  font-family: 'montserrat', sans-serif;
 }
 
+.btn:hover {
+  background-color: #A68C5B;
+  border-color: #A68C5B;
+  color:white;
+  font-family: 'montserrat', sans-serif;
+
  /*jumbotron style*/
+
+ h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold ;
+  color: black;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 40px;
+}
 
  /*card style*/
   .card-deck {
     display: flex;
   }
 
-  .card-img-center {
-    display: block;
+  .card {
+    margin: 25px;
+  }
+
+
+  /*about me style needs the h5,paragraph text, and button to be centered inside parent div.*/
+  
+  .card-text-center {
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     
   }
-
-  /*about me style*/
+  .img.mx-auto {
+    margin: 25px; 
+}
 
 
   /*footer style*/
+  .mb-0 {
+    color: white !important;
+    font-size: 16px;
+    font-weight: regular;
+  }
+
+  /*images needs to be 1024x768 to make cards smaller*/
+
