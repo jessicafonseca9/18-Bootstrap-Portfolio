@@ -29,6 +29,10 @@
     color:#D99748 !important;
   }
 
+  .navbar-toggler .navbar-toggler-icon { 
+    background-image: url(../images/Icon\ feather-menu.svg); 
+} 
+
 
 .btn-primary {
   background-color: #7CA89F;
@@ -41,6 +45,15 @@
   border-color: #A68C5B;
   color:white;
   font-family: 'montserrat', sans-serif;
+}
+
+
+.btn-submit {
+  background-color: #7CA89F;
+  border-color: #7CA89F;
+  font-family: 'montserrat', sans-serif;
+}
+
 
  /*jumbotron style*/
 
@@ -60,13 +73,21 @@ h2 {
   margin-left: 40px;
 }
 
+
+
  /*card style*/
-  .card-deck {
-    display: flex;
+  .card-Container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
   }
 
   .card {
-    margin: 25px;
+    margin: 0 auto;
+  }
+
+  .card-body {
+    height: auto;
   }
 
 
@@ -90,5 +111,56 @@ h2 {
     font-weight: regular;
   }
 
-  /*images needs to be 1024x768 to make cards smaller*/
 
+/*contact form*/
+.resume-section {
+  background-color: lightgray;
+  padding-top:35px!important;
+}
+
+li{
+  list-style-type:none;
+}
+
+h2.mb-4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight:bold;
+  font-size: 20px!important;
+}
+
+
+.btn-submit {
+  background-color: #7CA89F;
+  border-color: #7CA89F;
+  font-family: 'montserrat', sans-serif;
+}
+
+/*submit button animation*/
+
+.hold-mouse {
+  box-shadow: 4px 4px 55px #ae8f26;
+}
+.circle {
+  height: 25px;
+  width: 25px; 
+  background-color: #ae8f26 ;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  pointer-events: none;
+  transform: scale(0);
+}
+
+@keyframes grow { 
+  0% { 
+    background-color:#ae8f26;
+    transform: scale(1); z-index: 2; }
+  100% {
+    background-color:#ae8f26;
+    transform: scale(30); opacity: 0; z-index: -1; }
+}
+
+.grow {
+  animation: grow 1.4s ease-out forwards;   
+}
